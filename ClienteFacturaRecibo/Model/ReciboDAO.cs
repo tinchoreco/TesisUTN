@@ -94,6 +94,7 @@ namespace ClienteFacturaRecibo
 
         public Recibo BuscarReciboPorId(int idRecibo)
         {
+
             Recibo recibo = null;
             string sql = "SELECT * FROM recibos WHERE idRecibos = @idRecibos";
             try
